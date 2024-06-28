@@ -37,6 +37,6 @@ export async function POST(request: Request){
         return Response.json({
             success:false,
             message:"Failed to Send Message"
-        },{status:500})
+        },{status:500 })
     }
 }
