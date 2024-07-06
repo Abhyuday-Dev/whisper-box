@@ -58,10 +58,11 @@ const Dashboard = () => {
     setisswitchloading(false);
     try {
       const response = await axios.get<ApiResponse>("/api/get-messages");
+      console.log(response)
       setMessages(response.data.messages||[]);
       if(refresh){
         toast({
-          title:"Refereshed messages",
+          title:"Refreshed messages",
           description:"Showing Latest Messages",
           
         })
@@ -106,7 +107,7 @@ const Dashboard = () => {
     }
   }
 
-  const {username}=session?.user;
+  const {username}=session?.user || "";
   const baseUrl = `${window.location.protocol}//${window.location.host}`;
   const profileUrl = `${baseUrl}/u/${username}`;
 

@@ -1,17 +1,42 @@
 [
-    {
-      "title": "Message from User123",
-      "content": "Hey, how are you doing today?",
-      "received": "10 minutes ago"
-    },
-    {
-      "title": "Message from SecretAdmirer",
-      "content": "I really liked your recent post!",
-      "received": "2 hours ago"
-    },
-    {
-      "title": "Message from MysteryGuest",
-      "content": "Do you have any book recommendations?",
+  {
+      "title": "Message from CoolCat99",
+      "content": "Hey, what's your favorite movie?",
+      "received": "5 minutes ago"
+  },
+  {
+      "title": "Message from FoodieFan",
+      "content": "I tried your recipe and loved it!",
+      "received": "15 minutes ago"
+  },
+  {
+      "title": "Message from TravelBug",
+      "content": "Any travel plans for this summer?",
+      "received": "30 minutes ago"
+  },
+  {
+      "title": "Message from BookLover",
+      "content": "Do you have any new book reviews?",
+      "received": "45 minutes ago"
+  },
+  {
+      "title": "Message from GymRat",
+      "content": "What's your workout routine like?",
+      "received": "1 hour ago"
+  },
+  {
+      "title": "Message from TechGuru",
+      "content": "What's your go-to app for productivity?",
+      "received": "3 hours ago"
+  },
+  {
+      "title": "Message from MusicMaven",
+      "content": "What's on your current playlist?",
+      "received": "5 hours ago"
+  },
+  {
+      "title": "Message from ArtAficionado",
+      "content": "Loved your latest painting!",
       "received": "1 day ago"
-    }
-  ]
+  }
+]

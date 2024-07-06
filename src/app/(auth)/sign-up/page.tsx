@@ -47,7 +47,6 @@ const page = () => {
   useEffect(() => {
     const checkUsernameUnique = async () => {
       if (username) {
-        console.log("here")
         setIsCheckingUsername(true);
         setUsernameMessage("");
 
@@ -78,7 +77,7 @@ const page = () => {
     console.log("Inside submit")
     try {
       const response = await axios.post<ApiResponse>("/api/sign-up", data);
-      console.log("Response")
+      console.log(response)
       toast({
         title: "Success",
         description: response.data.message,
